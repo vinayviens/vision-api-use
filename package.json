@@ -1,0 +1,20 @@
+{
+  "name": "vision-ocr-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/vision": "^5.3.3",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "google-auth-library": "^10.4.0",
+    "multer": "^2.0.2",
+    "nodemon": "^3.1.10"
+  }
+}

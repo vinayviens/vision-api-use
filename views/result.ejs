@@ -1,0 +1,20 @@
+<!-- OCR result page will go here -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>OCR Result</title>
+</head>
+<body>
+  <h1>Extracted Text</h1>
+  <pre><%= fullText %></pre>
+
+  <h2>Words Detected</h2>
+  <ul>
+    <% words.forEach(word => { %>
+      <li><%= word %></li>
+    <% }) %>
+  </ul>
+
+  <a href="/">Try Another Image</a>
+</body>
+</html>
